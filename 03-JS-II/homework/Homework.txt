@@ -1,0 +1,18 @@
+Consigna:
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+for
+&&, ||, !
+
+Resolución:
+a) for:
+Es una declaración (statement) que sirve para ejecutar un bucle que repite código.
+La declaración utiliza: 
+    1)una variable númerica a la que se asigna un valor inicial, 
+    2)una condición que compara el valor de la variable con un valor máximo,
+    3)un paso de variable, que incerementa la misma por cada ciclo
+
+
+b) &&, ||, !
+Los operadores booleanos o lógicos se usan para comparar expresiones o variables booleanas.
+La comparación devuelveun valor booleano de acyuerdo a la tabla de verdad.
+El comparador && es el "and", el || es el "or", y ! es el "not" o negación lógica
