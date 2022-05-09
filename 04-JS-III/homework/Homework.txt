@@ -1,0 +1,18 @@
+Consigna:
+
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Arrays
+
+Resolución:
+
+Arrays:
+Los arrays son listas de elementos de cualquier tipo que se identifican por un índice. Pueden aceptar distintos tipos de datos y objetos y ser multidimensionales 
+Así, si lista = ['a', 'b', 'c'] => lista[0] = 'a'
+Existen funciones importantes para manejar aarreglos, como: 
+* lista.length() => devuelve la cantidad de elementos dentro de un arreglo
+* lista.push() => agrega un elemento al final del arreglo
+* lista.pop() => elimina el último elemento del arreglo
+* lista.unshift() => agrega un elemento al principio del arreglo
+* lista.shift() => elimina el primer elemento del arreglo
+
