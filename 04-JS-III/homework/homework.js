@@ -203,26 +203,6 @@ function mesesDelAño(array) {
   }
 }
 
-/*
-
-  if ('Enero' == array.find(valor => valor == 'Enero'))  {
-    mesesEncontrados.push('Enero')
-  } else {
-    return "No se encontraron los meses pedidos";
-  }
-  if ('Marzo' == array.find(valor => valor == 'Marzo'))  {
-    mesesEncontrados.push('Marzo')
-  } else {
-    return "No se encontraron los meses pedidos";
-  }
-  if ('Noviembre' == array.find(valor => valor == 'Noviembre'))  {
-    mesesEncontrados.push('Noviembre')
-  } else {
-  }
-
-}
-*/
-
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
