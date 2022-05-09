@@ -1,0 +1,19 @@
+Consigna:
+
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Objetos
+Propiedades
+Métodos
+Bucle for…in
+Notación de puntos vs notación de corchetes
+
+Resolución:
+
+a) Objetos son coleciones de pares clave:valor. El valor puede ser una variable, una función o un objeto.
+b) Las propiedades de un objeto son cada una de esos pares clave:valor
+c) Los métodos son las funciones definidas como valor de una clave
+d) El bucle for..in es propio de los objetos y sirve para recorrer el objeto en su totalidad, obeniendo el valor para cada clave
+e) La notación de puntos permite acceder a un valor (valor = objeto.clave)
+    Se puede utilizar tambén la notación de corchetes en la forma valor = objeto[clave]
+    
