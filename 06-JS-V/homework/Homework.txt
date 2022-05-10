@@ -1,0 +1,55 @@
+Consigna:
+
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+prototype
+Constructors (de Clases)
+
+Resolución:
+
+a) prototype:
+    Un prototipo es la clase subyacente al objeto que creamos. El prototipo original se llama Object
+
+b) Constructors (de Clases)
+    Existen distintas formas de construir un objeto:
+        1) con una función:
+            function NuevoObjeto(nombre) {
+                this.nombre = nombre;
+                this.propiedad1 = "propiedad 1";
+                this.propiedad2 = "propiedad 2";
+                this.presentarse = function(){
+                    return "Soy " + this.nombre;
+                }
+            }
+
+            var miObjeto = new NuevoObjeto("objeto1");
+
+            miObjeto.presentarse(); // "Soy objeto1"
+
+        2) con prototype:
+            function NuevoObjeto(nombre) {
+                this.nombre = nombre;
+                this.propiedad1 = "propiedad 1";
+                this.propiedad2 = "propiedad 2";
+            }
+
+            NuevoObjeto.prototype.presentarse = function(){return "Soy " + this.nombre;};
+
+            var miObjeto = new NuevoObjeto("objeto2");
+
+            miObjeto.presentarse(); // "Soy objeto2"
+
+        3) con Object.create()
+            function NuevoObjeto(nombre) {
+                this.nombre = nombre;
+                this.propiedad1 = "propiedad 1";
+                this.propiedad2 = "propiedad 2";
+            }
+
+            NuevoObjeto.prototype.presentarse = function(){return "Soy " + this.nombre;};
+
+            var miObjeto1 = Object.create(NuevoObjeto.prototype);
+
+            Object.assign(miObjeto1,{nombre: "objeto3"});
+
+            miObjeto1.presentarse(); // "Soy objeto3"
+
